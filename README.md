@@ -2,24 +2,6 @@
 
 Uma aplicação web moderna e intuitiva para gerenciamento de inventário e sugestões de produção inteligentes. Desenvolva, visualize e gerencie materiais brutos, produtos e calcule otimizações de produção em tempo real.
 
-![Status](https://img.shields.io/badge/Status-Development-blue)
-![Version](https://img.shields.io/badge/Version-0.1.0-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
-## 📋 Sumário
-
-- [Visão Geral](#visão-geral)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
-- [Como Usar](#como-usar)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Scripts Disponíveis](#scripts-disponíveis)
-- [Variáveis de Ambiente](#variáveis-de-ambiente)
-- [Contribuição](#contribuição)
-
----
-
 ## 🎯 Visão Geral
 
 **AutoFlex** é uma solução de frontend desenvolvida para otimizar a gestão de inventário e sugestões de produção. O aplicativo permite:
