@@ -3,11 +3,11 @@ Aplicação web Next.js + React responsiva para gestão de materiais e sugestõe
 
 O front‑end consome uma API armazenada em src/services/api.ts e oferece funcionalidades de:
 
-Visualizar inventário de matérias‑primas
-Cadastrar/editar/excluir materiais
-Criar produtos que consomem materiais
-Exibir sugestões inteligentes de produção
-Controle de estoque com alertas de baixo estoque
+- Visualizar inventário de matérias‑primas
+- Cadastrar/editar/excluir materiais
+- Criar produtos que consomem materiais
+- Exibir sugestões inteligentes de produção
+- Controle de estoque com alertas de baixo estoque
 
 ```bash
 autoflex/
