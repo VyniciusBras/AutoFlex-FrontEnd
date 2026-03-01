@@ -1,4 +1,4 @@
-# 🚀 AutoFlex Front End
+# 🚀 AutoFlex - Front End
 Aplicação web Next.js + React para gestão de materiais e sugestões de produção da AutoFlex Materials.
 
 O front‑end consome uma API armazenada em src/services/api.ts e oferece funcionalidades de:
