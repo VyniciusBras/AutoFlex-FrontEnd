@@ -16,6 +16,7 @@ export const inventoryService = {
     api.put<RawMaterial>(`/materials/${id}`, data),
 
   deleteMaterial: (id: number) => api.delete(`/materials/${id}`),
+
   getProducts: () => api.get<Product[]>("/products").then((res) => res.data),
 
   createProduct: (data: Partial<Product>) =>
