@@ -1,5 +1,5 @@
 # 🚀 AutoFlex - Front End
-Aplicação web Next.js + React para gestão de materiais e sugestões de produção da AutoFlex Materials.
+Aplicação web Next.js + React responsiva para gestão de materiais e sugestões de produção da AutoFlex Materials.
 
 O front‑end consome uma API armazenada em src/services/api.ts e oferece funcionalidades de:
 
@@ -11,18 +11,18 @@ Controle de estoque com alertas de baixo estoque
 
 ```bash
 autoflex/
-├── public/                     ➤ ativos estáticos
+├── public/                     # ativos estáticos
 ├── src/
-│   ├── app/                    ➤ rotas e layout (Next.js 13+)
-│   ├── components/             ➤ UI reutilizável
-│   ├── hooks/                  ➤ lógica de estado (useInventory)
-│   ├── inventory/              ➤ modais de material
-│   ├── services/               ➤ cliente HTTP da API
-│   ├── types/                  ➤ tipos TypeScript
-│   └── tests/                  ➤ testes com Jest/React Testing Library
-├── jest.config.js              ➤ configuração de testes
-├── tsconfig.json               ➤ TypeScript
-├── next.config.ts              ➤ configurações do Next.js
+│   ├── app/                    # rotas e layout (Next.js 13+)
+│   ├── components/             # UI reutilizável
+│   ├── hooks/                  # lógica de estado (useInventory)
+│   ├── inventory/              # modais de material
+│   ├── services/               # cliente HTTP da API
+│   ├── types/                  # tipos TypeScript
+│   └── tests/                  # testes com Jest/React Testing Library
+├── jest.config.js              # configuração de testes
+├── tsconfig.json               # TypeScript
+├── next.config.ts              # configurações do Next.js
 ├── package.json
 └── README.md                  
 ```
