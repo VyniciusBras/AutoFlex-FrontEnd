@@ -15,7 +15,10 @@ export default function SuggestionCard({ suggestion: s, onDelete }: SuggestionCa
 
             <div className="flex justify-between items-start mb-3 pr-8">
                 <h3 className="text-lg font-black text-slate-900 uppercase tracking-tight">{s.productName}</h3>
-                <span className="text-emerald-600 font-bold text-sm bg-emerald-50 px-2 py-1 rounded-lg">${s.totalPrice.toFixed(2)}</span>
+                <div className="flex flex-col items-end">
+                    <span className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">batch</span>
+                    <span className="text-emerald-600 font-bold text-sm bg-emerald-50 px-2 py-1 rounded-lg mt-1">${s.totalPrice.toFixed(2)}</span>
+                </div>
             </div>
 
             <div className="mb-4">
