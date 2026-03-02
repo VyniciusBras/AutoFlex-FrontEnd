@@ -50,6 +50,16 @@ cd AutoFlex-FrontEnd/autoflex
 npm install
 
 # Rodar em modo de desenvolvimento
+# Clonando e instalando dependências
+git clone https://github.com/VyniciusBras/AutoFlex-FrontEnd.git
+
+# Entrar na pasta autoflex
+cd AutoFlex-FrontEnd/autoflex
+
+# Instalar as dependências
+npm install
+
+# Rodar em modo de desenvolvimento
 npm run dev
 
 # Para visualizar em localhost acesse:
